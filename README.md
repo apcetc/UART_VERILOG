@@ -1,8 +1,7 @@
-# UART Verilog Implementation
+
 
 A synthesizable UART transmitter and receiver implemented in Verilog HDL.
 
-## Features
 
 - UART TX and RX
 - Configurable baud rate
@@ -14,7 +13,7 @@ A synthesizable UART transmitter and receiver implemented in Verilog HDL.
 - Verilog testbench
 - Simulation verified
 
-## Project Structure
+
 
 rtl/
   uart_tx.v
