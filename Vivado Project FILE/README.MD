@@ -1,8 +1,12 @@
-UART Verilog Implementation
+# UART Verilog Implementation
 
-A synthesizable 8-bit UART transmitter and receiver implemented in Verilog HDL using AMD Vivado. Includes TX, RX, baud-rate generation, parity handling, and simulation testbench.
+A synthesizable **8-bit UART transmitter and receiver** implemented in Verilog HDL using **AMD Vivado**.
 
-Project Structure
+**Features:** TX, RX, baud-rate generation, parity handling, and simulation testbench.
+
+## Project Structure
+
+```text
 UART/
 ├── rtl/
 │   ├── uart.v
@@ -13,3 +17,10 @@ UART/
 │   └── uart_tb.v
 └── vivado/
     └── UART.xpr
+```
+
+## Tools
+
+* Verilog HDL
+* AMD Vivado
+* ModelSim
